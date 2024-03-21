@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav-bar">
+                <div class="nav-logo">
+                    <img src="/image/logo 2.jpg" alt="logo" height="42px">
+                </div>
+                <div class="nav-items">
+                    <a href="#" class="nav-link">
+                        Menu
+                    </a>
+                    <a href="#" class="nav-link">
+                        Blog
+                    </a>
+                    <a href="#" class="nav-link">
+                        About
+                    </a>
+                    <a href="#" class="nav-link">
+                        Contact
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content-section wrapper">
+            <div class="content" style="width:30% !important;">
+                <h1>Content List</h1>
+                <ul style="list-style: none;">
+                    <li class="mt-2">Atom and Molecule</li>
+                    <li class="mt-2">Light Reflection and Refraction</li>
+                    <li class="mt-2">Electricity</li>
+                    <li class="mt-2">Chemical reaction</li>
+                    <li class="mt-2">Theory of Relativity</li>
+                </ul>
+            </div>
+            <div class="content"
+                style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Course Image">
+                    <div class="card-content">
+                        <h2>Course Title</h2>
+                        <p>Course Description or Subheading</p>
+                        <a href="#" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="map">
+    </div>
+    <script>
+        function initMap() {
+            var location = { lat: 20.593683, lng: 78.962883 };
+            var map = new google.maps.Map(document.getElementById("map"), {
+                Zoom: 8,
+                centre: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2A5rRB8maeEWvqMgwpN3tcHwB12TWUNY&callback=initMap">
+        </script>
+</body>
+
+</html>
