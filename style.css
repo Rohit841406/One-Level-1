@@ -92,15 +92,19 @@ body{
   }
   .card img {
     width: 100%;
-    height: auto;
+    height: 150px;
     display: block;
   }
   .card-content {
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
   }
   .card-content h2 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 18px;
     color: #333;
   }
   .card-content p {
