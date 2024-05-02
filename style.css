@@ -46,7 +46,7 @@ body{
 .nav-bar .nav-items a:hover{
     background-color: #007bff;
     padding: 12px;
-    color: #030303;
+    color: #ffffff;
     transition: all 0.25s;
     border-radius: 5px;
     border-left: 5px solid #e4048e;
